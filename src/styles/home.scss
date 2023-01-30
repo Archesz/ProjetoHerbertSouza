@@ -1,0 +1,490 @@
+@media (min-width: 320px){
+    .container-home{
+        width: 100%;
+        height: auto;
+
+        .hometop{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url('../assets/Fundos/BackgroundHome.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+    
+            .hometop-content{
+                display: flex;
+                flex-direction: column;
+                padding: 40px;
+                color: var(--white);
+    
+                .citation{
+                    font-size: 16px;
+                    font-style: italic;
+                    margin-bottom: 10px;
+                }
+    
+                .title{
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+    
+                .subtitle{
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+    
+                .hometop-buttons{
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    gap: 10px;
+                }
+            }
+    
+            .hometop-img{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    
+        .hometopmid{
+            min-height: 100vh;
+            margin-top: -10px;
+            background-image: url('../assets/Fundos/BackgroundHome1.png');
+            background-color: var(--primaryColor);
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 40px;
+
+            .hometopmid-content{
+                margin-top: 120px;
+                display: flex;
+                width: 100%;
+                height: auto;
+                flex-direction: column;
+                padding: 10px 40px;
+                color: var(--white);
+    
+                .title{
+                    font-weight: bold;
+                    font-size: 26px;
+                    margin-bottom: 10px;
+                }
+    
+                .resume{
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .homemid{
+            height: 100vh;
+            background-color: var(--white);
+
+            .homemid-content{
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+
+                .homemid-call{
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+
+                .homemid-scall{
+                    font-size: 16px;
+                    align-self: center;
+                    text-align: center;
+                }
+
+                .homemid-title{
+                    font-weight: bold;
+                    font-size: 27px;
+                    margin-bottom: 5px;
+                }
+
+                .homemid-resume{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                .universidades-logos{
+                    display: flex;
+                    height: 220px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+
+                    .field-universidade{
+                        width: 30%;
+                    }
+                }
+
+                .homemid-cite{
+                    margin-top: 30px;
+                    font-style: italic;
+                    align-self: center;
+                    text-align: center;
+                }
+            }
+        }
+
+        .homebotmid{
+            height: 100vh;
+            background-color: var(--secondColor);
+
+            .homebotmid-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 40px;
+                color: var(--white);
+
+                .homebotmid-call{
+                    color: var(--primaryColor);
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+                .homebotmid-title{
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
+
+                .homebotmid-resume{
+                    margin-top: 10px;
+                }
+
+                .projetos-icons{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    gap: 10px;
+                    row-gap: 40px;
+                    .projeto-icon{
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .icon{
+                            width: 100%;
+                            color: var(--primaryColor);
+                            font-size: 70px;
+                            margin-bottom: 10px;
+                        }
+
+                        .projeto-label{
+                            font-weight: bold;
+                            font-size: 14px;
+                        }
+                    }
+                
+                }
+            }
+        }
+        
+        .homebot{
+            height: 90vh;
+            background-color: var(--white);
+            
+            .homebot-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 40px;
+                align-items: center;
+                
+                .homebot-call{
+                    font-weight: bold;
+                    color: var(--secondColor);
+                    font-size: 24px;
+                }
+
+                .homebot-icon{
+                    margin-top: 12px;
+                    font-size: 70px;
+                    margin-bottom: 12px;
+                }
+    
+                .homebot-title{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: var(--secondColor);
+                    text-align: center;
+                }
+
+                .homebot-sub{
+                    margin-top: 12px;
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 420px){
+    .container-home{
+        width: 100%;
+        height: auto;
+
+        .hometop{
+    
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+    
+            .hometop-content{
+                display: flex;
+                flex-direction: column;
+                padding: 40px;
+                color: var(--white);
+    
+                .citation{
+                    font-size: 16px;
+                    font-style: italic;
+                    margin-bottom: 10px;
+                }
+    
+                .title{
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+    
+                .subtitle{
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+    
+                .hometop-buttons{
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 90%;
+                    justify-content: space-between;
+                }
+            }
+    
+            .hometop-img{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    
+        .hometopmid{
+            min-height: 100vh;
+            margin-top: -10px;
+            background-image: url('../assets/Fundos/BackgroundHome1.png');
+            background-color: var(--primaryColor);
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 40px;
+
+            .hometopmid-content{
+                margin-top: 120px;
+                display: flex;
+                width: 100%;
+                height: auto;
+                flex-direction: column;
+                padding: 10px 40px;
+                color: var(--white);
+    
+                .title{
+                    font-weight: bold;
+                    font-size: 26px;
+                    margin-bottom: 10px;
+                }
+    
+                .resume{
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .homemid{
+            height: 100vh;
+            background-color: var(--white);
+
+            .homemid-content{
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+
+                .homemid-call{
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+
+                .homemid-scall{
+                    font-size: 16px;
+                    align-self: center;
+                    text-align: center;
+                }
+
+                .homemid-title{
+                    font-weight: bold;
+                    font-size: 27px;
+                    margin-bottom: 5px;
+                }
+
+                .homemid-resume{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                .universidades-logos{
+                    display: flex;
+                    height: 220px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+
+                    .field-universidade{
+                        width: 30%;
+                    }
+                }
+
+                .homemid-cite{
+                    margin-top: 30px;
+                    font-style: italic;
+                    align-self: center;
+                    text-align: center;
+                }
+            }
+        }
+
+        .homebotmid{
+            height: 90vh;
+            background-color: var(--secondColor);
+
+            .homebotmid-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 40px;
+                color: var(--white);
+
+                .homebotmid-call{
+                    color: var(--primaryColor);
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+                .homebotmid-title{
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
+
+                .homebotmid-resume{
+                    margin-top: 10px;
+                }
+
+                .projetos-icons{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    gap: 10px;
+                    row-gap: 40px;
+                    .projeto-icon{
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .icon{
+                            width: 100%;
+                            color: var(--primaryColor);
+                            font-size: 70px;
+                            margin-bottom: 10px;
+                        }
+
+                        .projeto-label{
+                            font-weight: bold;
+                            font-size: 14px;
+                        }
+                    }
+                
+                }
+            }
+        }
+        
+        .homebot{
+            height: 80vh;
+            background-color: var(--white);
+            
+            .homebot-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 40px;
+                align-items: center;
+                
+                .homebot-call{
+                    font-weight: bold;
+                    color: var(--secondColor);
+                    font-size: 24px;
+                }
+
+                .homebot-icon{
+                    margin-top: 12px;
+                    font-size: 70px;
+                    margin-bottom: 12px;
+                }
+    
+                .homebot-title{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: var(--secondColor);
+                    text-align: center;
+                }
+
+                .homebot-sub{
+                    margin-top: 12px;
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
