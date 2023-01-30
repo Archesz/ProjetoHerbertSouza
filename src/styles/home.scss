@@ -99,6 +99,7 @@
                     font-weight: bold;
                     font-size: 16px;
                     margin-bottom: 5px;
+                    text-align: center;
                 }
 
                 .homemid-scall{
@@ -109,12 +110,14 @@
 
                 .homemid-title{
                     font-weight: bold;
-                    font-size: 27px;
-                    margin-bottom: 5px;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 10px;
                 }
 
                 .homemid-resume{
                     font-size: 14px;
+                    text-align: center;
                     margin-bottom: 10px;
                 }
 
@@ -145,7 +148,7 @@
         }
 
         .homebotmid{
-            height: 100vh;
+            height: auto;
             background-color: var(--secondColor);
 
             .homebotmid-content{
@@ -204,7 +207,7 @@
         }
         
         .homebot{
-            height: 90vh;
+            height: auto;
             background-color: var(--white);
             
             .homebot-content{
@@ -424,6 +427,7 @@
                     justify-content: space-between;
                     gap: 10px;
                     row-gap: 40px;
+
                     .projeto-icon{
                         width: 40%;
                         display: flex;
@@ -449,7 +453,7 @@
         }
         
         .homebot{
-            height: 80vh;
+            height: auto;
             background-color: var(--white);
             
             .homebot-content{
