@@ -59,7 +59,7 @@ function About() {
 
                 <img src={about2} alt="" className='about-img'/>
 
-                <span className='about-title'>Como funcionamos?</span>
+                <span className='about-title' id='funcionamento'>Como funcionamos?</span>
 
                 <div className='about-work'>
                     <span className='work-title'>A estrutura</span>

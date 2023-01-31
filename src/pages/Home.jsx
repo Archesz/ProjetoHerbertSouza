@@ -9,6 +9,7 @@ import Beneficio from '../components/Beneficio/Beneficio'
 import {FaChalkboardTeacher, FaUniversity, FaPaintBrush, FaPython} from 'react-icons/fa'
 import {MdOutlineSupportAgent} from 'react-icons/md'
 import {BiDna} from 'react-icons/bi'
+import {BsBook} from 'react-icons/bs'
 import {GiHealthNormal, GiBaobab} from 'react-icons/gi'
 
 /* Imagens */
@@ -24,6 +25,32 @@ import Navbar from '../components/Navbar/Navbar'
 import Depoimentos from '../components/Depoimento/Depoimentos'
 import Button from '../components/Button/Button'
 import Footer from '../components/Footer/Footer'
+
+function goToPage(page){
+    if(page === "Home"){
+        window.location.assign('./')
+    }
+
+    if(page === "About"){
+        window.location.assign('./historia')
+    }
+
+    if(page === "Projetos"){
+        window.location.assign('./projetos')
+    }
+
+    if(page === "Contato"){
+        window.location.assign('./contato')
+    }
+
+    if(page === "Funcionamento"){
+        window.location.assign("./historia#funcionamento")
+    }
+
+    if(page === "Matricula"){
+        window.open("https://forms.gle/CNXW6FC1GPRG5aKz5", "_blank")
+    }
+}
 
 function Home() {
     return (
@@ -42,8 +69,8 @@ function Home() {
                     <span className='subtitle'>Prezamos por um ensino, educação e convivência de qualidade para que juntos possamos conquistar nossos espaços</span>
 
                     <div className='hometop-buttons'>
-                        <Button text="Matricula" estilo="full small responsive"/>
-                        <Button text="Conhecer" estilo="outline small responsive"/>
+                        <Button text="Matricula" estilo="full small responsive" onClick={() => {goToPage("Matricula")}}/>
+                        <Button text="Conhecer" estilo="outline small responsive" onClick={() => {goToPage("About")}}/>
                     </div>
                 </div>
 
@@ -59,12 +86,14 @@ function Home() {
                     <span className='title'>Vamos te ajudar a lutar pelo seu lugar!</span>
                     <span className='resume'>Entre em um ambiente saúdavel e inspirador, que te prepara para muito mais que uma prova.</span>
 
-                    <Button text="Como Funciona?" estilo="invert long self-center mb-4"/>
+                    <Button text="Como Funciona?" estilo="invert long self-center mb-4" onClick={() => {goToPage('Funcionamento')}}/>
 
-                    <Beneficio titulo="Educação Humanizada" icone={<FaChalkboardTeacher />} texto="Gostamos de valorizar as particularidades, debates e a criação de um ambiente não competitivo entre nossos estudantes, garantindo qualidade de educação e de convivência"/>
-                    <Beneficio titulo="Suporte" icone={<MdOutlineSupportAgent />} texto="Oferecer todo o suporte disponível para os estudantes, desde materiais de apoio e estudo, conteúdos extras, monitorias, plantões, aulas presenciais e gravadas, e muito mais!"/>
-                    <Beneficio titulo="Adaptabilidade" icone={<BiDna />} texto="O ensino deve ser adaptado e atualizado conforme as demandas da sociedade. Temos liberdade para utilizar diferentes ferramentas, métodos e integrações tecnologicas para auxiliar os estudantes."/>
-
+                    <div className='rowcol'>
+                        <Beneficio titulo="Educação Humanizada" icone={<FaChalkboardTeacher />} texto="Gostamos de valorizar as particularidades, debates e a criação de um ambiente não competitivo entre nossos estudantes, garantindo qualidade de educação e de convivência"/>
+                        <Beneficio titulo="Suporte" icone={<MdOutlineSupportAgent />} texto="Oferecer todo o suporte disponível para os estudantes, desde materiais de apoio e estudo, conteúdos extras, monitorias, plantões, aulas presenciais e gravadas, e muito mais!"/>
+                        <Beneficio titulo="Adaptabilidade" icone={<BiDna />} texto="O ensino deve ser adaptado e atualizado conforme as demandas da sociedade. Temos liberdade para utilizar diferentes ferramentas, métodos e integrações tecnologicas para auxiliar os estudantes."/>
+                        <Beneficio titulo="Material" icone={<BsBook />} texto="Produção de material autoral para disponilização gratuita entre os estudantes. Facilitando o acesso a informação e difundindo o conhecimento."/>
+                    </div>
                 </div>
 
             </div>
@@ -92,8 +121,6 @@ function Home() {
                     <span className='homemid-scall'>E muito mais.</span>
 
                     <span className='homemid-scall'>Nossa história é desenhada por lutas e objetivos extensos, onde cada estudante, professor ou colaborador escreve uma nova página sobre o futuro do projeto.</span>
-
-                    <Button text="Conhecer" estilo="small outline red self-center mt-2"/>
 
                     <span className='homemid-cite'>"Uma história só termina quando quem conta diz que terminou."</span>
                 </div>
@@ -132,7 +159,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <Button text="Projetos" estilo="small full mt-4 self-center"/>
+                    <Button text="Projetos" estilo="small full mt-4 self-center" onClick={() => {goToPage("Projetos")}}/>
                 </div>
 
             </div>

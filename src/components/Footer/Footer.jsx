@@ -45,16 +45,16 @@ function Footer() {
                 <span className='footer-title'>Institucional</span>
                 <div className='footer-institucional'>
                     <a className='footer-link' href="./">Home</a>
-                    <a className='footer-link' href="./">Projetos</a>
-                    <a className='footer-link' href="./">História</a>
-                    <a className='footer-link' href="./">Equipe</a>
-                    <a className='footer-link' href="./">Funcionamento</a>
-                    <a className='footer-link' href="./">Contato</a>
-                    <a className='footer-link' href="./">Tecnologia</a>
-                    <a className='footer-link' href="./">Pré-vestibular</a>
-                    <a className='footer-link' href="./">Pré-tecnico</a>
-                    <a className='footer-link' href="./">Vagas</a>
-                    <a className='footer-link' href="./">News Letter</a>
+                    <a className='footer-link' href="./projetos">Projetos</a>
+                    <a className='footer-link' href="./historia">História</a>
+                    <a className='footer-link' href="./historia#equipe">Equipe</a>
+                    <a className='footer-link' href="./historia#funcionamento">Funcionamento</a>
+                    <a className='footer-link' href="./contato">Contato</a>
+                    <a className='footer-link' href="./embreve">Tecnologia</a>
+                    <a className='footer-link' href="./embreve">Pré-vestibular</a>
+                    <a className='footer-link' href="./embreve">Pré-tecnico</a>
+                    <a className='footer-link' href="./embreve">Vagas</a>
+                    <a className='footer-link' href="./embreve">News Letter</a>
                 </div>
 
                 <div className='footer-contato'>

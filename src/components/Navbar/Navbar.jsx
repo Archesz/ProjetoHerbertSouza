@@ -44,7 +44,7 @@ function goToPage(page){
     }
 
     if(page === "Matricula"){
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfclXhY6Qn9ZSgqy8qtz5QsQjpbwZq-NgtAGmwBdpI7p7zhrg/viewform?usp=sf_link", "_blank")
+        window.open("https://forms.gle/CNXW6FC1GPRG5aKz5", "_blank")
     }
 }
 
@@ -97,11 +97,11 @@ function Navbar() {
                 </div>
 
                 <div className='menu-items'>
-                    <span className='menu-item' onClick={() => {goToPage("Home")}}>Home</span>
-                    <span className='menu-item' onClick={() => {goToPage("About")}}>História</span>
-                    <span className='menu-item' onClick={() => {goToPage("Projetos")}}>Projetos</span>
-                    <span className='menu-item' onClick={() => {goToPage("Contato")}}>Contato</span>
-                    <span className='menu-item' onClick={() => {goToPage("Matricula")}}>Inscrição</span>
+                    <a className='menu-item' href="./">Home</a>
+                    <a className='menu-item' href="./historia">História</a>
+                    <a className='menu-item' href="./projetos">Projetos</a>
+                    <a className='menu-item' href="./contato">Contato</a>
+                    <a className='menu-item' href="./inscricao">Inscrição</a>
                 </div>
 
 
