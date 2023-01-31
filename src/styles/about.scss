@@ -1,0 +1,96 @@
+.container-about{
+    height: auto;
+    
+    .about-content{
+        padding: 70px 40px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--secondColor);
+
+        .title{
+            font-weight: bold;
+            font-size: 32px;
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        .about-title{
+            font-weight: bold;
+            color: var(--primaryColor);
+            font-size: 26px;
+        }
+
+        .about-img{
+            margin-bottom: 20px;
+        }
+
+        .about-text{
+            color: white;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .about-pilar{
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid white;
+            margin-bottom: 12px;
+
+            .pilar-title{
+                color: white;
+                font-weight: bolder;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            .pilar-text{
+                color: white;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    
+        .about-work{
+            display: flex;
+            flex-direction: column;
+            color: var(--white);
+            margin-bottom: 10px;
+
+            .work-title{
+                font-weight: bold;
+                font-size: 18px;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+
+            .work-text{
+                font-size: 14px;
+                margin-bottom: 8px;
+
+                a{
+                    color: var(--primaryColor);
+                }
+            }
+        }
+
+        .about-team{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 10px 0px;
+
+            .team-title{
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .team{
+                margin-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 30px;
+                row-gap: 20px;
+            }
+        }
+    }
+}

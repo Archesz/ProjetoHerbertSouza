@@ -1,0 +1,9 @@
+{
+    "Professores": {
+        "Infraestrutura": ["Marcelo", "Carol", "Silas"],
+        "Exatas": ["Jovi", "Profeta"],
+        "Linguagens": ["Nicolas"],
+        "Natureza": ["Guga", "Wedley", "Luquinhas", "Alessandra", "Barba", "Sansão"],
+        "Humanas": ["Lynn", "Asriel", "Helena", "Alice", "Roberto", "História", "Lucas", "Nassif", "Bruna"]
+    }
+}
